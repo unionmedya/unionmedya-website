@@ -1,21 +1,21 @@
 const steps = [
   {
-    n: "01",
-    title: "Talep & Brief",
+    n: "1",
+    title: "Talep",
     desc: "Form veya telefon ile arsa konumunu ve ihtiyacınızı paylaşın. 24 saat içinde teklif sunalım.",
   },
   {
-    n: "02",
+    n: "2",
     title: "Saha Uçuşu",
     desc: "2-3 gün içinde lisanslı pilot ekibimiz sahaya gider. Hava ve ışık koşullarını optimize ederiz.",
   },
   {
-    n: "03",
+    n: "3",
     title: "Profesyonel Kurgu",
     desc: "Renk düzeltme, sınır overlay, sinematik geçişler. Tüm sosyal medya formatlarına optimize edilir.",
   },
   {
-    n: "04",
+    n: "4",
     title: "48 Saatte Teslim",
     desc: "Bulut linki ile tüm dosyalara anında erişim. İhtiyaç olursa 1 ücretsiz revizyon hakkı dahil.",
   },
@@ -31,28 +31,20 @@ export default function Process() {
           </h2>
         </div>
 
-        {/* Yatay süreç çizelgesi */}
-        <div className="relative">
-          {/* Bağlantı çizgisi (masaüstünde görünür) */}
-          <div className="hidden md:block absolute top-12 left-0 right-0 h-px bg-krem/15" />
-
-          <div className="grid md:grid-cols-4 gap-6 md:gap-12 relative">
-            {steps.map((step) => (
-              <div key={step.n} className="relative">
-                {/* Numara dairesi */}
-                <div className="w-12 h-12 rounded-full bg-toprak border border-pin/40 flex items-center justify-center mb-6 relative z-10">
-                  <span className="font-display font-medium text-2xl text-krem/70">{step.n}</span>
-                </div>
-
-                <h3 className="font-medium text-lg mb-3 leading-snug">
-                  {step.title}
-                </h3>
-                <p className="text-krem/70 text-[14px] leading-relaxed">
-                  {step.desc}
-                </p>
+        <div className="grid md:grid-cols-4 gap-6 md:gap-12">
+          {steps.map((step) => (
+            <div key={step.n}>
+              <div className="w-12 h-12 rounded-full bg-toprak border border-pin/40 flex items-center justify-center mb-6">
+                <span className="font-display font-medium text-2xl text-krem/70">{step.n}</span>
               </div>
-            ))}
-          </div>
+              <h3 className="font-medium text-lg mb-3 leading-snug">
+                {step.title}
+              </h3>
+              <p className="text-krem/70 text-[14px] leading-relaxed">
+                {step.desc}
+              </p>
+            </div>
+          ))}
         </div>
       </div>
     </section>
