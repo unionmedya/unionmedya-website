@@ -92,7 +92,7 @@ export default function Contact() {
                     Hızlı soru için
                   </div>
                   <div className="text-[12px] text-krem/50 mt-1">
-                    Genelde 1 saat içinde dönüyoruz
+                    Hızlıca dönüyoruz
                   </div>
                 </div>
               </a>
