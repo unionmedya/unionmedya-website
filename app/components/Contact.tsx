@@ -76,9 +76,10 @@ export default function Contact() {
                 rel="noopener noreferrer"
                 className="flex items-start gap-4 group"
               >
-                <div className="w-12 h-12 rounded-md bg-krem/5 border border-krem/15 flex items-center justify-center flex-shrink-0 group-hover:bg-krem/10 transition-colors">
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-krem/70">
-                    <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z" strokeLinejoin="round"/>
+                <div className="w-12 h-12 rounded-md flex items-center justify-center flex-shrink-0 transition-opacity group-hover:opacity-80" style={{ background: "#25D366" }}>
+                  {/* WhatsApp logosu */}
+                  <svg width="26" height="26" viewBox="0 0 32 32" fill="white" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16 2C8.268 2 2 8.268 2 16c0 2.44.655 4.733 1.8 6.713L2 30l7.463-1.778A13.93 13.93 0 0016 30c7.732 0 14-6.268 14-14S23.732 2 16 2zm0 2c6.627 0 12 5.373 12 12s-5.373 12-12 12a11.94 11.94 0 01-6.02-1.617l-.43-.263-4.43 1.057 1.09-4.303-.287-.456A11.94 11.94 0 014 16C4 9.373 9.373 4 16 4zm-3.3 5.5c-.3 0-.78.112-1.19.562-.41.45-1.56 1.526-1.56 3.72s1.597 4.316 1.82 4.613c.224.297 3.12 4.98 7.671 6.784 1.069.424 1.904.677 2.554.868.873.258 1.668.222 2.296.135.7-.098 2.158-.882 2.463-1.735.305-.852.305-1.583.214-1.735-.09-.152-.336-.243-.703-.425-.367-.182-2.17-1.07-2.506-1.193-.336-.122-.582-.182-.827.183-.244.364-.947 1.192-1.16 1.436-.214.243-.428.274-.795.091-.367-.182-1.548-.57-2.948-1.82-1.09-.974-1.826-2.176-2.04-2.54-.213-.365-.023-.562.16-.743.164-.163.367-.426.55-.638.183-.213.244-.365.366-.608.122-.244.061-.457-.03-.639-.092-.182-.828-1.997-1.134-2.734-.298-.718-.602-.62-.828-.631-.213-.01-.457-.012-.701-.012z"/>
                   </svg>
                 </div>
                 <div>
@@ -87,9 +88,6 @@ export default function Contact() {
                   </div>
                   <div className="font-medium text-[15px] group-hover:text-krem transition-colors">
                     Hızlı soru için
-                  </div>
-                  <div className="text-[12px] text-krem/50 mt-1">
-                    Hızlıca dönüyoruz
                   </div>
                 </div>
               </a>

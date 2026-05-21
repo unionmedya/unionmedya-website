@@ -37,7 +37,7 @@ const packages = [
       "3D arazi haritası",
       "Sanal tur entegrasyonu",
       "Kadastro & parsel detayı",
-      "Sınırsız revizyon",
+      "3 ücretsiz revizyon",
     ],
     featured: false,
   },
