@@ -17,7 +17,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <div className="text-[11px] font-mono tracking-[0.25em] text-krem/40 mb-4">
+            <div className="text-[13px] font-display font-medium tracking-wide text-krem/70 mb-4">
               HİZMETLER
             </div>
             <ul className="space-y-2 text-[14px]">
@@ -29,7 +29,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <div className="text-[11px] font-mono tracking-[0.25em] text-krem/40 mb-4">
+            <div className="text-[13px] font-display font-medium tracking-wide text-krem/70 mb-4">
               KURUMSAL
             </div>
             <ul className="space-y-2 text-[14px]">
@@ -41,7 +41,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <div className="text-[11px] font-mono tracking-[0.25em] text-krem/40 mb-4">
+            <div className="text-[13px] font-display font-medium tracking-wide text-krem/70 mb-4">
               İLETİŞİM
             </div>
             <ul className="space-y-2 text-[14px]">

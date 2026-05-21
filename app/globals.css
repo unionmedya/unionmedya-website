@@ -11,7 +11,9 @@ html {
 body {
   background: #F2EBD8;
   color: #1A1F0E;
-  font-family: 'Inter', system-ui, sans-serif;
+  font-family: 'Outfit', system-ui, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

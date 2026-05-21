@@ -7,7 +7,7 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        toprak: "#2E3B16",
+        toprak: "#3A4A1F",
         zeytin: "#4A5D24",
         krem: "#F2EBD8",
         pin: "#E0B82E",
@@ -15,7 +15,7 @@ const config: Config = {
         sis: "#A8B098",
       },
       fontFamily: {
-        sans: ["Inter", "system-ui", "sans-serif"],
+        sans: ["Outfit", "system-ui", "sans-serif"],
         display: ["Outfit", "Inter", "sans-serif"],
         serif: ["'Cormorant Garamond'", "serif"],
         mono: ["'JetBrains Mono'", "monospace"],
