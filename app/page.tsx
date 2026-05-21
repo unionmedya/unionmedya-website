@@ -1,6 +1,5 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import ServiceMap from "./components/ServiceMap";
 import ProblemSolution from "./components/ProblemSolution";
 import Services from "./components/Services";
 import Process from "./components/Process";
@@ -15,7 +14,6 @@ export default function Home() {
     <main>
       <Navbar />
       <Hero />
-      <ServiceMap />
       <ProblemSolution />
       <Services />
       <Process />

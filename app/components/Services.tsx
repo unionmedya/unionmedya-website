@@ -26,9 +26,6 @@ export default function Services() {
     <section id="hizmetler" className="bg-krem text-toprak py-24 px-6 border-t border-zeytin/10">
       <div className="max-w-7xl mx-auto">
         <div className="mb-16">
-          <div className="font-mono text-[10px] tracking-[0.3em] text-zeytin mb-3">
-            02 — HİZMETLER
-          </div>
           <h2 className="font-display text-4xl md:text-5xl leading-tight max-w-3xl">
             Tek bir uçuşta, ilanınızın <span className="italic">tam donanımı.</span>
           </h2>

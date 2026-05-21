@@ -25,8 +25,7 @@ export default function Navbar() {
           <span className="font-display text-3xl leading-none">X</span>
           <div className="leading-tight">
             <div className="text-sm font-medium tracking-tight">union medya</div>
-            <div className="text-[9px] font-mono tracking-[0.2em] text-pin/80">AERIAL ANALYSIS</div>
-          </div>
+            </div>
         </a>
 
         {/* Menü */}

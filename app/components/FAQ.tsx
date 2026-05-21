@@ -36,9 +36,6 @@ export default function FAQ() {
     <section id="sss" className="bg-krem text-toprak py-24 px-6">
       <div className="max-w-4xl mx-auto">
         <div className="mb-16">
-          <div className="font-mono text-[10px] tracking-[0.3em] text-zeytin mb-3">
-            06 — SIK SORULANLAR
-          </div>
           <h2 className="font-display text-4xl md:text-5xl leading-tight">
             Karar vermeden önce <span className="italic">bilmek istedikleriniz.</span>
           </h2>

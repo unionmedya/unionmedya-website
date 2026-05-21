@@ -48,9 +48,6 @@ export default function Pricing() {
     <section id="paketler" className="bg-krem text-toprak py-24 px-6">
       <div className="max-w-7xl mx-auto">
         <div className="mb-16">
-          <div className="font-mono text-[10px] tracking-[0.3em] text-zeytin mb-3">
-            04 — PAKETLER
-          </div>
           <h2 className="font-display text-4xl md:text-5xl leading-tight max-w-3xl mb-4">
             Şeffaf başlangıç fiyatları, <span className="italic">projeye özel teklif.</span>
           </h2>

@@ -15,13 +15,6 @@ export default function Hero() {
       />
 
       <div className="relative max-w-7xl mx-auto px-6 w-full">
-        {/* Üst teknik şerit — arka plan detayı */}
-        <div className="flex items-center justify-between font-mono text-[9px] tracking-[0.25em] text-krem/20 mb-16">
-          <span>UM — 2026</span>
-          <span className="hidden md:inline">AERIAL ANALYSIS</span>
-          <span>40.7600°N · 29.9200°E</span>
-        </div>
-
         <div className="max-w-3xl">
           {/* Üst rozet */}
           <div className="inline-flex items-center gap-2 bg-pin/10 border border-pin/20 px-3 py-1.5 rounded-md mb-8">

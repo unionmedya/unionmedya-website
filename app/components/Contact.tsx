@@ -36,9 +36,6 @@ export default function Contact() {
         <div className="grid lg:grid-cols-2 gap-16">
           {/* Sol: Başlık + bilgi */}
           <div>
-            <div className="font-mono text-[10px] tracking-[0.3em] text-pin mb-3">
-              07 — TEKLİF AL
-            </div>
             <h2 className="font-display text-4xl md:text-5xl leading-tight mb-6">
               Arsanızı havaya kaldıralım, <span className="italic text-pin">teklifimiz 24 saat içinde.</span>
             </h2>

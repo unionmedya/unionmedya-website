@@ -26,9 +26,6 @@ export default function Process() {
     <section id="surec" className="bg-toprak text-krem py-24 px-6">
       <div className="max-w-7xl mx-auto">
         <div className="mb-16">
-          <div className="font-mono text-[10px] tracking-[0.3em] text-pin mb-3">
-            03 — SÜREÇ
-          </div>
           <h2 className="font-display text-4xl md:text-5xl leading-tight max-w-3xl">
             Talepten teslime <span className="italic text-pin">48 saat.</span>
           </h2>

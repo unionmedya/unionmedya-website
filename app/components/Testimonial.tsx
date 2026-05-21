@@ -2,10 +2,6 @@ export default function Testimonial() {
   return (
     <section className="bg-toprak text-krem py-24 px-6 border-t border-krem/5">
       <div className="max-w-4xl mx-auto text-center">
-        <div className="font-mono text-[10px] tracking-[0.3em] text-pin mb-8">
-          05 — EMLAKÇI YORUMU
-        </div>
-
         {/* Açılış tırnağı */}
         <div className="font-display text-6xl text-pin/40 leading-none mb-4">
           &ldquo;
