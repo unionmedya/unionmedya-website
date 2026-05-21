@@ -7,7 +7,7 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        toprak: "#3A4A1F",
+        toprak: "#2E3B16",
         zeytin: "#4A5D24",
         krem: "#F2EBD8",
         pin: "#E0B82E",
