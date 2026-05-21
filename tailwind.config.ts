@@ -7,12 +7,12 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        toprak: "#2E3B16",
-        zeytin: "#4A5D24",
-        krem: "#F2EBD8",
-        pin: "#E0B82E",
-        gece: "#1A1F0E",
-        sis: "#A8B098",
+        toprak: "#F3EDE2",
+        zeytin: "#3D5019",
+        krem: "#1C2B0C",
+        pin: "#A07010",
+        gece: "#E6DFD3",
+        sis: "#656B58",
       },
       fontFamily: {
         sans: ["Inter", "system-ui", "sans-serif"],
