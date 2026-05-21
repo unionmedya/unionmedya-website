@@ -52,7 +52,7 @@ export default function FAQ() {
                 className="w-full px-6 py-5 flex items-center justify-between text-left hover:bg-zeytin/5 transition-colors"
                 aria-expanded={open === i}
               >
-                <span className="font-medium text-[15px] pr-4">{faq.q}</span>
+                <span className="font-medium text-[16px] pr-4">{faq.q}</span>
                 <span
                   className={`text-zeytin/50 text-2xl leading-none transition-transform duration-300 flex-shrink-0 ${
                     open === i ? "rotate-45" : ""
@@ -67,7 +67,7 @@ export default function FAQ() {
                   open === i ? "max-h-96" : "max-h-0"
                 }`}
               >
-                <div className="px-6 pb-6 text-zeytin/90 text-[15px] leading-loose">
+                <div className="px-6 pb-6 text-zeytin/90 text-[16px] leading-loose">
                   {faq.a}
                 </div>
               </div>

@@ -31,7 +31,7 @@ export default function Hero() {
           </h1>
 
           {/* Alt başlık */}
-          <p className="text-lg md:text-xl text-krem/70 leading-relaxed mb-10 max-w-2xl">
+          <p className="text-lg md:text-xl text-krem/90 leading-loose mb-10 max-w-2xl">
             Emlakçı için arsa drone çekimi. Net sınır, net konum, net karar.
           </p>
 

@@ -40,7 +40,7 @@ export default function Services() {
               <h3 className="font-display font-medium text-lg mb-3 leading-snug group-hover:text-toprak transition-colors">
                 {s.title}
               </h3>
-              <p className="font-sans text-zeytin/90 text-[15px] leading-loose">
+              <p className="font-sans text-zeytin/90 text-[16px] leading-loose">
                 {s.desc}
               </p>
             </div>

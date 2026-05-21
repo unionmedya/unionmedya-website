@@ -10,7 +10,7 @@ export default function Footer() {
                 <div className="text-sm font-medium">union medya</div>
               </div>
             </div>
-            <p className="text-[13px] leading-relaxed">
+            <p className="text-[16px] leading-loose">
               Emlakta 360° Yeni Nesil Pazarlama. Arsa & arazi odaklı drone
               çekimi.
             </p>

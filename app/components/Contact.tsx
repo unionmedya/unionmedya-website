@@ -39,7 +39,7 @@ export default function Contact() {
             <h2 className="font-display text-4xl md:text-5xl leading-tight mb-6">
               Arsanızı havaya kaldıralım, <span className="italic text-pin">teklifimiz 24 saat içinde.</span>
             </h2>
-            <p className="text-krem/90 text-[15px] mb-12 leading-loose">
+            <p className="text-krem/90 text-[16px] mb-12 leading-loose">
               Aşağıdaki formu doldurun, en uygun paket ve fiyat teklifimizi 24
               saat içinde size iletelim. Acil durumlarda telefonla doğrudan
               ulaşabilirsiniz.

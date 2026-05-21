@@ -83,8 +83,8 @@ export default function Pricing() {
 
               <h3 className="font-display text-3xl mb-2">{pkg.name}</h3>
               <p
-                className={`text-[13px] mb-6 leading-relaxed ${
-                  pkg.featured ? "text-krem/70" : "text-zeytin/70"
+                className={`text-[16px] mb-6 leading-loose ${
+                  pkg.featured ? "text-krem/90" : "text-zeytin/70"
                 }`}
               >
                 {pkg.desc}
@@ -107,7 +107,7 @@ export default function Pricing() {
                 {pkg.features.map((f) => (
                   <li
                     key={f}
-                    className={`flex items-start gap-2 text-[14px] ${
+                    className={`flex items-start gap-2 text-[16px] ${
                       pkg.featured ? "text-krem/85" : "text-zeytin/85"
                     }`}
                   >

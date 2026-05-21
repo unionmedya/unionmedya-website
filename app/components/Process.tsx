@@ -40,7 +40,7 @@ export default function Process() {
               <h3 className="font-medium text-lg mb-3 leading-snug">
                 {step.title}
               </h3>
-              <p className="text-krem/70 text-[14px] leading-relaxed">
+              <p className="text-krem/90 text-[16px] leading-loose">
                 {step.desc}
               </p>
             </div>

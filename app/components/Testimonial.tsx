@@ -66,7 +66,7 @@ export default function Testimonial() {
                 />
               </div>
 
-              <p className="font-sans text-[13px] text-krem/80 leading-snug mt-4">
+              <p className="font-sans text-[16px] text-krem/90 leading-loose mt-4">
                 {stat.label}
               </p>
 
