@@ -71,11 +71,6 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* Alt scroll ipucu */}
-        <div className="absolute bottom-6 left-1/2 -translate-x-1/2 text-krem/30 text-[10px] font-mono tracking-[0.3em] flex flex-col items-center gap-2">
-          <span>SCROLL</span>
-          <span className="w-px h-8 bg-krem/20" />
-        </div>
       </div>
     </section>
   );
