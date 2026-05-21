@@ -91,6 +91,29 @@ export default function Contact() {
                   </div>
                 </div>
               </a>
+              {/* Instagram */}
+              <a
+                href="https://instagram.com/unionmedya"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-start gap-4 group"
+              >
+                <div className="w-12 h-12 rounded-md bg-krem/5 border border-krem/15 flex items-center justify-center flex-shrink-0 group-hover:bg-krem/10 transition-colors">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className="text-krem/70">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                    <circle cx="12" cy="12" r="4.5"/>
+                    <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>
+                  </svg>
+                </div>
+                <div>
+                  <div className="text-[11px] font-mono tracking-[0.2em] text-krem/50 mb-1">
+                    INSTAGRAM
+                  </div>
+                  <div className="font-medium text-[15px] group-hover:text-krem transition-colors">
+                    @unionmedya
+                  </div>
+                </div>
+              </a>
             </div>
           </div>
 
