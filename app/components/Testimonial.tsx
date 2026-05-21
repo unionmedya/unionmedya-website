@@ -16,10 +16,10 @@ const stats = [
     label: "Alıcılar karar vermeden önce görselin tutarlılığına bakıyor",
   },
   {
-    value: "%40",
-    fill: 40,
+    value: "3×",
+    fill: 75,
     delay: "300ms",
-    label: "Video içeren ilanlar daha hızlı satılıyor",
+    label: "Alıcılar video gördükten sonra 3 kat daha hızlı karar veriyor",
   },
 ];
 
