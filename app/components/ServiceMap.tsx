@@ -140,8 +140,10 @@ export default function ServiceMap() {
           <img
             src="/turkey-map.svg"
             alt="Türkiye hizmet haritası"
-            className="w-full"
-            style={{ aspectRatio: "1024 / 500", display: "block", opacity: 0.9 }}
+            width={1024}
+            height={500}
+            className="w-full h-auto"
+            style={{ display: "block", filter: "brightness(1.6) saturate(1.3)" }}
           />
 
           {/* Overlay: kabarmış iller + il isimleri */}
