@@ -4,22 +4,22 @@ import { useEffect, useRef, useState } from "react";
 
 const stats = [
   {
-    label: "Video içerikli ilanlar daha fazla tıklanıyor",
-    value: "%403",
+    value: "4 Kat",
     fill: 100,
     delay: "0ms",
+    label: "Video içerikli ilanlar daha fazla tıklanıyor",
   },
   {
-    label: "Video içeren ilanlar daha hızlı satılıyor",
-    value: "%40",
-    fill: 40,
-    delay: "200ms",
-  },
-  {
-    label: "Alıcılar karar vermeden önce online görsele bakıyor",
     value: "%85",
     fill: 85,
-    delay: "400ms",
+    delay: "150ms",
+    label: "Alıcılar karar vermeden önce görselin tutarlılığına bakıyor",
+  },
+  {
+    value: "%40",
+    fill: 40,
+    delay: "300ms",
+    label: "Video içeren ilanlar daha hızlı satılıyor",
   },
 ];
 
@@ -48,31 +48,34 @@ export default function Testimonial() {
       ref={ref}
       className="bg-toprak text-krem py-24 px-6 border-t border-krem/5"
     >
-      <div className="max-w-3xl mx-auto space-y-10">
-        {stats.map((stat, i) => (
-          <div key={i}>
-            <div className="flex justify-between items-baseline mb-3">
-              <p className="font-sans text-[14px] text-krem/75 leading-snug">
+      <div className="max-w-3xl mx-auto">
+        <div className="grid grid-cols-3 gap-6 md:gap-12">
+          {stats.map((stat, i) => (
+            <div key={i} className="flex flex-col items-center text-center">
+              <div className="font-display text-3xl md:text-5xl text-pin mb-5">
+                {stat.value}
+              </div>
+
+              <div className="relative w-full h-40 md:h-56 bg-krem/10 rounded-sm overflow-hidden">
+                <div
+                  className="absolute bottom-0 left-0 right-0 bg-pin"
+                  style={{
+                    height: started ? `${stat.fill}%` : "0%",
+                    transition: `height 1.2s ease-out ${stat.delay}`,
+                  }}
+                />
+              </div>
+
+              <p className="font-sans text-[13px] text-krem/80 leading-snug mt-4">
                 {stat.label}
               </p>
-              <span className="font-display text-3xl text-pin ml-6 shrink-0">
-                {stat.value}
-              </span>
+
+              <p className="mt-3 text-[10px] text-krem/35 font-sans">
+                Kaynak: NAR &amp; Zillow araştırmaları
+              </p>
             </div>
-            <div className="h-[6px] bg-krem/10 rounded-full overflow-hidden">
-              <div
-                className="h-full bg-pin rounded-full"
-                style={{
-                  width: started ? `${stat.fill}%` : "0%",
-                  transition: `width 1s ease-out ${stat.delay}`,
-                }}
-              />
-            </div>
-            <p className="mt-2 text-[11px] text-krem/35 font-sans">
-              Kaynak: NAR &amp; Zillow araştırmaları
-            </p>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </section>
   );
