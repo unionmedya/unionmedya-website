@@ -14,8 +14,8 @@ export default function ProblemSolution() {
         <div className="grid md:grid-cols-3 gap-6">
           {/* Sorun 1 */}
           <div className="bg-white border border-zeytin/15 p-8 rounded-lg">
-            <h3 className="font-medium text-lg mb-3">Sınır görünmüyor</h3>
-            <p className="text-zeytin/80 leading-relaxed text-[15px]">
+            <h3 className="font-display font-medium text-lg mb-3">Sınır görünmüyor</h3>
+            <p className="font-sans text-zeytin/80 leading-relaxed text-[14px]">
               Yerden çekilen fotoğraf arsanın gerçek büyüklüğünü, çevresini ve
               komşu yapılaşmayı göstermez. Alıcı &quot;ne aldığımı anlamadım&quot;
               der, telefonu kapatır.
@@ -24,8 +24,8 @@ export default function ProblemSolution() {
 
           {/* Sorun 2 */}
           <div className="bg-white border border-zeytin/15 p-8 rounded-lg">
-            <h3 className="font-medium text-lg mb-3">İlanlar birbirine benziyor</h3>
-            <p className="text-zeytin/80 leading-relaxed text-[15px]">
+            <h3 className="font-display font-medium text-lg mb-3">İlanlar birbirine benziyor</h3>
+            <p className="font-sans text-zeytin/80 leading-relaxed text-[14px]">
               Yola mesafe, deniz/dağ manzarası, çevresel potansiyel ilanda
               görünmüyor. İlanınız onlarcası arasında sıradanlaşıyor, tıklanma
               oranı düşüyor.
@@ -34,13 +34,10 @@ export default function ProblemSolution() {
 
           {/* Çözüm */}
           <div className="bg-toprak text-krem p-8 rounded-lg relative overflow-hidden">
-            <div className="text-[10px] font-mono tracking-[0.2em] text-pin mb-4">
-              ÇÖZÜM · UNION MEDYA
-            </div>
-            <h3 className="font-medium text-lg mb-3 text-krem">
+            <h3 className="font-display font-medium text-lg mb-3 text-krem">
               Havadan video + sınır overlay + drone fotoğraf
             </h3>
-            <p className="text-krem/80 leading-relaxed text-[15px]">
+            <p className="font-sans text-krem/80 leading-relaxed text-[14px]">
               Alıcı arsayı zihninde &quot;yerleştirir&quot;, çevreyi ölçer,
               potansiyeli görür. Karar süresi kısalır, ciddi alıcı sayısı
               artar.

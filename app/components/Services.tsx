@@ -37,13 +37,13 @@ export default function Services() {
               key={s.code}
               className="bg-krem p-8 hover:bg-white transition-colors duration-300 group"
             >
-              <div className="font-mono text-[10px] tracking-[0.25em] text-zeytin/50 mb-6">
+              <div className="font-display text-sm text-krem/40 mb-6">
                 {s.code}
               </div>
-              <h3 className="font-medium text-lg mb-3 leading-snug group-hover:text-toprak transition-colors">
+              <h3 className="font-display font-medium text-lg mb-3 leading-snug group-hover:text-toprak transition-colors">
                 {s.title}
               </h3>
-              <p className="text-zeytin/80 text-[14px] leading-relaxed">
+              <p className="font-sans text-zeytin/80 text-[14px] leading-relaxed">
                 {s.desc}
               </p>
             </div>
