@@ -87,7 +87,7 @@ export default function Contact() {
                     WHATSAPP
                   </div>
                   <div className="font-medium text-[15px] group-hover:text-krem transition-colors">
-                    Hızlı soru için
+                    Bize ulaşın - Hızlı soru için
                   </div>
                 </div>
               </a>

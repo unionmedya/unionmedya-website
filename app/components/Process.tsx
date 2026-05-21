@@ -41,7 +41,7 @@ export default function Process() {
               <div key={step.n} className="relative">
                 {/* Numara dairesi */}
                 <div className="w-12 h-12 rounded-full bg-toprak border border-pin/40 flex items-center justify-center mb-6 relative z-10">
-                  <span className="font-sans text-krem/30 text-xs">{step.n}</span>
+                  <span className="font-display font-medium text-2xl text-krem/70">{step.n}</span>
                 </div>
 
                 <h3 className="font-medium text-lg mb-3 leading-snug">

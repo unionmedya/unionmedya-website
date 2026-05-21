@@ -63,8 +63,8 @@ export default function Hero() {
               48 saatte teslim
             </div>
             <div className="flex items-center gap-2">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-pin">
-                <path d="M12 2l8 4v6c0 5-3.5 9-8 10-4.5-1-8-5-8-10V6l8-4z" strokeLinejoin="round" />
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="text-pin">
+                <path d="M12 3C12 3 5 6 5 9v5c0 3.5 3 6 7 7 4-1 7-3.5 7-7V9c0-3-7-6-7-6z" />
               </svg>
               Sigortalı uçuş
             </div>

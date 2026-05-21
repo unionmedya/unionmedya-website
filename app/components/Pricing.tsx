@@ -2,7 +2,7 @@ const packages = [
   {
     name: "Temel",
     code: "PKG · 01",
-    fromPrice: "2.500 ₺",
+    fromPrice: "₺2.500",
     desc: "Tek arsa, hızlı teslim. Küçük parseller için ideal.",
     features: [
       "15 drone fotoğraf (4K)",
@@ -15,7 +15,7 @@ const packages = [
   {
     name: "Profesyonel",
     code: "PKG · 02",
-    fromPrice: "4.500 ₺",
+    fromPrice: "₺4.500",
     desc: "Çoğu emlakçının tercihi. Kapsamlı paket, kurgulu çıktı.",
     features: [
       "30 drone fotoğraf (4K)",
@@ -29,7 +29,7 @@ const packages = [
   {
     name: "Premium",
     code: "PKG · 03",
-    fromPrice: "7.500 ₺",
+    fromPrice: "₺7.500",
     desc: "Büyük arazi, lüks proje, geliştirici sunumu için.",
     features: [
       "50+ drone fotoğraf (4K + RAW)",
