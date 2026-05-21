@@ -15,7 +15,7 @@ export default function ProblemSolution() {
           {/* Sorun 1 */}
           <div className="bg-white border border-zeytin/15 p-8 rounded-lg">
             <h3 className="font-display font-medium text-lg mb-3">Sınır görünmüyor</h3>
-            <p className="font-sans text-zeytin/80 leading-relaxed text-[14px]">
+            <p className="font-sans text-zeytin/90 leading-loose text-[15px]">
               Yerden çekilen fotoğraf arsanın gerçek büyüklüğünü, çevresini ve
               komşu yapılaşmayı göstermez. Alıcı &quot;ne aldığımı anlamadım&quot;
               der, telefonu kapatır.
@@ -25,7 +25,7 @@ export default function ProblemSolution() {
           {/* Sorun 2 */}
           <div className="bg-white border border-zeytin/15 p-8 rounded-lg">
             <h3 className="font-display font-medium text-lg mb-3">İlanlar birbirine benziyor</h3>
-            <p className="font-sans text-zeytin/80 leading-relaxed text-[14px]">
+            <p className="font-sans text-zeytin/90 leading-loose text-[15px]">
               Yola mesafe, deniz/dağ manzarası, çevresel potansiyel ilanda
               görünmüyor. İlanınız onlarcası arasında sıradanlaşıyor, tıklanma
               oranı düşüyor.
@@ -37,7 +37,7 @@ export default function ProblemSolution() {
             <h3 className="font-display font-medium text-lg mb-3 text-krem">
               Havadan video + sınır overlay + drone fotoğraf
             </h3>
-            <p className="font-sans text-krem/80 leading-relaxed text-[14px]">
+            <p className="font-sans text-krem/90 leading-loose text-[15px]">
               Alıcı arsayı zihninde &quot;yerleştirir&quot;, çevreyi ölçer,
               potansiyeli görür. Karar süresi kısalır, ciddi alıcı sayısı
               artar.

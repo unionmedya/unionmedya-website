@@ -67,7 +67,7 @@ export default function FAQ() {
                   open === i ? "max-h-96" : "max-h-0"
                 }`}
               >
-                <div className="px-6 pb-6 text-zeytin/80 text-[14px] leading-relaxed">
+                <div className="px-6 pb-6 text-zeytin/90 text-[15px] leading-loose">
                   {faq.a}
                 </div>
               </div>
