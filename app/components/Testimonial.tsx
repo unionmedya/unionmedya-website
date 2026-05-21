@@ -17,24 +17,44 @@ export default function Testimonial() {
           <div>Emlak Danışmanı · Çeşme</div>
         </div>
 
-        {/* Alt güven istatistikleri */}
-        <div className="mt-16 pt-12 border-t border-krem/10 grid grid-cols-3 gap-8 max-w-3xl mx-auto">
-          <div>
-            <div className="font-display text-4xl text-pin mb-2">3×</div>
+        {/* İstatistik kartları */}
+        <div className="mt-16 pt-12 border-t border-krem/10 grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+          <div className="bg-zeytin/20 border border-krem/10 rounded-lg px-6 py-8">
+            <div className="font-display text-5xl text-pin mb-3">%403</div>
+            <div className="text-[14px] text-krem/85 leading-snug mb-4">
+              daha fazla tıklanma
+            </div>
             <div className="text-[12px] text-krem/60 leading-snug">
-              daha hızlı satış<br />ortalaması
+              Video içerikli emlak ilanları
+            </div>
+            <div className="mt-4 pt-4 border-t border-krem/10 text-[10px] text-krem/35 font-mono tracking-wide">
+              Kaynak: NAR & Zillow araştırmaları
             </div>
           </div>
-          <div>
-            <div className="font-display text-4xl text-pin mb-2">48 sa</div>
+
+          <div className="bg-zeytin/20 border border-krem/10 rounded-lg px-6 py-8">
+            <div className="font-display text-5xl text-pin mb-3">%40</div>
+            <div className="text-[14px] text-krem/85 leading-snug mb-4">
+              daha hızlı satış
+            </div>
             <div className="text-[12px] text-krem/60 leading-snug">
-              brieften teslime<br />ortalama süre
+              Video içeren ilanlar ortalamada
+            </div>
+            <div className="mt-4 pt-4 border-t border-krem/10 text-[10px] text-krem/35 font-mono tracking-wide">
+              Kaynak: NAR & Zillow araştırmaları
             </div>
           </div>
-          <div>
-            <div className="font-display text-4xl text-pin mb-2">100%</div>
+
+          <div className="bg-zeytin/20 border border-krem/10 rounded-lg px-6 py-8">
+            <div className="font-display text-5xl text-pin mb-3">%85</div>
+            <div className="text-[14px] text-krem/85 leading-snug mb-4">
+              alıcı
+            </div>
             <div className="text-[12px] text-krem/60 leading-snug">
-              SHGM lisanslı<br />sigortalı uçuş
+              Karar vermeden önce online görsele bakıyor
+            </div>
+            <div className="mt-4 pt-4 border-t border-krem/10 text-[10px] text-krem/35 font-mono tracking-wide">
+              Kaynak: NAR & Zillow araştırmaları
             </div>
           </div>
         </div>
