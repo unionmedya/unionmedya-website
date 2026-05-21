@@ -21,7 +21,7 @@ const faqs = [
   },
   {
     q: "Revizyon hakkım var mı?",
-    a: "Profesyonel pakette 1, Premium pakette sınırsız ücretsiz revizyon hakkı vardır. Temel pakette ek revizyon talebi düşük ücretle eklenir.",
+    a: "Profesyonel pakette 1, Premium pakette 3 ücretsiz revizyon hakkı vardır. Temel pakette ek revizyon talebi düşük ücretle eklenir.",
   },
   {
     q: "Ödeme nasıl alınıyor?",
