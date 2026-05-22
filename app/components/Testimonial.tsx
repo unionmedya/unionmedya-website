@@ -1,15 +1,18 @@
 const stats = [
   {
+    top: "Video içerikli ilanlar",
     value: "4 Kat",
-    label: "Video içerikli ilanlar daha fazla tıklanıyor",
+    bottom: "Daha fazla tıklanıyor",
   },
   {
+    top: "Alıcıların %85'i",
     value: "%85",
-    label: "Karar vermeden önce görselin tutarlılığına bakıyor",
+    bottom: "Karar vermeden önce görselin tutarlılığına bakıyor",
   },
   {
+    top: "Video içeren ilanlar",
     value: "3 Kat",
-    label: "Daha hızlı alıcı kararı",
+    bottom: "Daha hızlı alıcı kararı",
   },
 ];
 
@@ -30,11 +33,14 @@ export default function Testimonial() {
               key={i}
               className="border border-pin/40 rounded-lg p-8 flex flex-col items-center text-center"
             >
+              <p className="font-sans text-[13px] text-krem/60 leading-snug mb-4">
+                {stat.top}
+              </p>
               <div className="font-display text-5xl md:text-6xl text-pin mb-4">
                 {stat.value}
               </div>
-              <p className="font-sans text-[15px] text-krem/80 leading-snug">
-                {stat.label}
+              <p className="font-sans text-[14px] text-krem/80 leading-snug">
+                {stat.bottom}
               </p>
             </div>
           ))}
