@@ -3,7 +3,6 @@ type Stat = {
   value: string;
   side?: string;
   bottom: string;
-  centerHeading?: string;
 };
 
 const stats: Stat[] = [
@@ -13,9 +12,8 @@ const stats: Stat[] = [
     bottom: "Daha fazla tıklanıyor",
   },
   {
-    top: "",
-    value: "",
-    centerHeading: "alıcıların %85'i",
+    top: "alıcıların",
+    value: "%85'i",
     bottom: "Karar vermeden önce görselin tutarlılığına bakıyor",
   },
   {
@@ -42,37 +40,22 @@ export default function Testimonial() {
               key={i}
               className="border border-pin/40 rounded-lg p-8 flex flex-col items-center justify-center text-center"
             >
-              {stat.centerHeading ? (
-                <>
-                  <p className="font-display text-3xl text-pin font-bold leading-snug mb-4">
-                    {stat.centerHeading}
-                  </p>
-                  <p className="font-sans text-[14px] text-krem/80 leading-snug">
-                    {stat.bottom}
-                  </p>
-                </>
-              ) : (
-                <>
-                  {stat.top && (
-                    <p className="font-sans text-[13px] text-krem/60 leading-snug mb-4">
-                      {stat.top}
-                    </p>
-                  )}
-                  <div className="flex items-baseline gap-2 mb-4">
-                    <span className="font-display text-5xl md:text-6xl text-pin">
-                      {stat.value}
-                    </span>
-                    {stat.side && (
-                      <span className="font-display text-2xl text-pin">
-                        {stat.side}
-                      </span>
-                    )}
-                  </div>
-                  <p className="font-sans text-[14px] text-krem/80 leading-snug">
-                    {stat.bottom}
-                  </p>
-                </>
-              )}
+              <p className="font-sans text-[14px] text-krem/70 leading-snug mb-3">
+                {stat.top}
+              </p>
+              <div className="flex items-baseline gap-2 mb-3">
+                <span className="font-display text-5xl md:text-6xl text-pin">
+                  {stat.value}
+                </span>
+                {stat.side && (
+                  <span className="font-display text-2xl text-pin">
+                    {stat.side}
+                  </span>
+                )}
+              </div>
+              <p className="font-sans text-[14px] text-krem/80 leading-snug">
+                {stat.bottom}
+              </p>
             </div>
           ))}
         </div>
