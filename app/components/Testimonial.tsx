@@ -17,6 +17,13 @@ export default function Testimonial() {
   return (
     <section className="bg-toprak text-krem py-24 px-6 border-t border-krem/5">
       <div className="max-w-4xl mx-auto">
+        <div className="mb-12">
+          <h2 className="font-display text-4xl md:text-5xl text-krem leading-tight mb-8">
+            Drone&apos;lu İlanlar
+          </h2>
+          <hr className="border-krem/15" />
+        </div>
+
         <div className="grid grid-cols-3 gap-6">
           {stats.map((stat, i) => (
             <div
