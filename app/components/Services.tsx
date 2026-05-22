@@ -11,7 +11,7 @@ const services = [
   },
   {
     code: "03",
-    title: "Satış Videosu",
+    title: "Profesyonel Video Kurgusu",
     desc: "Ham görüntü değil, satışa hazır hikaye. Müzik, renk, kurgu — alıcıyı arsaya bağlar.",
   },
   {
