@@ -73,14 +73,6 @@ export default function Pricing() {
                 </div>
               )}
 
-              <div
-                className={`font-mono text-[10px] tracking-[0.25em] mb-4 ${
-                  pkg.featured ? "text-pin" : "text-zeytin/50"
-                }`}
-              >
-                {pkg.code}
-              </div>
-
               <h3 className="font-display text-3xl mb-2">{pkg.name}</h3>
               <p
                 className={`text-[16px] mb-6 leading-loose ${
