@@ -1,12 +1,20 @@
-const stats = [
+type Stat = {
+  top: string;
+  value: string;
+  side?: string;
+  bottom: string;
+};
+
+const stats: Stat[] = [
   {
     top: "Video içerikli ilanlar",
     value: "4 Kat",
     bottom: "Daha fazla tıklanıyor",
   },
   {
-    top: "Alıcıların %85'i",
+    top: "",
     value: "%85",
+    side: "Alıcıların",
     bottom: "Karar vermeden önce görselin tutarlılığına bakıyor",
   },
   {
@@ -33,11 +41,20 @@ export default function Testimonial() {
               key={i}
               className="border border-pin/40 rounded-lg p-8 flex flex-col items-center text-center"
             >
-              <p className="font-sans text-[13px] text-krem/60 leading-snug mb-4">
-                {stat.top}
-              </p>
-              <div className="font-display text-5xl md:text-6xl text-pin mb-4">
-                {stat.value}
+              {stat.top && (
+                <p className="font-sans text-[13px] text-krem/60 leading-snug mb-4">
+                  {stat.top}
+                </p>
+              )}
+              <div className="flex items-baseline gap-2 mb-4">
+                <span className="font-display text-5xl md:text-6xl text-pin">
+                  {stat.value}
+                </span>
+                {stat.side && (
+                  <span className="font-display text-2xl text-pin">
+                    {stat.side}
+                  </span>
+                )}
               </div>
               <p className="font-sans text-[14px] text-krem/80 leading-snug">
                 {stat.bottom}
