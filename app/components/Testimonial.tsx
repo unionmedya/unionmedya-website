@@ -41,7 +41,7 @@ export default function Testimonial() {
         </div>
 
         <p className="mt-8 text-center text-[11px] text-krem/35 font-sans">
-          Kaynak: NAR &amp; Zillow araştırmaları
+          Kaynak: NAR &amp; Zillow araştırması
         </p>
       </div>
     </section>
