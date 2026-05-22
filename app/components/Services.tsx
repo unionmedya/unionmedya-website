@@ -2,22 +2,22 @@ const services = [
   {
     code: "01",
     title: "Profesyonel Drone Çekimi",
-    desc: "4K çözünürlükte havadan foto ve video. Arsanın sınırı, çevresi, manzarası tek karede.",
+    desc: "Arsanız havadan görününce alıcı ne aldığını anlar. Sınır, çevre, manzara — hepsi tek karede.",
   },
   {
     code: "02",
     title: "Sınır & Kadastro Overlay",
-    desc: "Çekim üzerine arsa sınırı, parsel bilgisi ve yola mesafe net şekilde işlenir.",
+    desc: "Alıcı 'burası benim' der. Parsel sınırları ve yola mesafe video üzerinde işaretlenir, soru kalmaz.",
   },
   {
     code: "03",
     title: "Sanal Drone Kurgusu",
-    desc: "Sinematik geçişler, profesyonel renk düzeltme. Sosyal medya ve ilan portalları için optimize.",
+    desc: "Ham görüntü değil, satışa hazır hikaye. Müzik, renk, kurgu — alıcıyı arsaya bağlar.",
   },
   {
     code: "04",
     title: "Satışa Hazır Video",
-    desc: "9:16 reels, 16:9 youtube, 1:1 instagram. Tek çekim, tüm formatlar, hazır müzikle teslim.",
+    desc: "Tek çekimden Instagram reels'i, ilanın videosu, WhatsApp'ta paylaşılacak kısa klip. Hepsi hazır.",
   },
 ];
 
