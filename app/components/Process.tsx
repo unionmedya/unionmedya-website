@@ -12,7 +12,7 @@ const steps = [
   {
     n: "3",
     title: "Profesyonel Kurgu",
-    desc: "Renk düzeltme, sınır overlay, sinematik geçişler. Tüm sosyal medya formatlarına optimize edilir.",
+    desc: "Renk düzeltme, sınır işaretleme, sinematik geçişler. Tüm sosyal medya formatlarına optimize edilir.",
   },
   {
     n: "4",
