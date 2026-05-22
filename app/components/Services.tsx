@@ -16,7 +16,7 @@ const services = [
   },
   {
     code: "04",
-    title: "Satışa Hazır Video",
+    title: "Satış Videosu",
     desc: "Tek çekimden Instagram reels'i, ilanın videosu, WhatsApp'ta paylaşılacak kısa klip. Hepsi hazır.",
   },
 ];
