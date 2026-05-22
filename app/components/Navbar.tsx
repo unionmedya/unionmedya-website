@@ -30,7 +30,6 @@ export default function Navbar() {
 
         {/* Menü */}
         <div className="hidden md:flex items-center gap-8 text-sm text-krem/80">
-          <a href="#bolgeler" className="hover:text-pin transition-colors">Bölgeler</a>
           <a href="#hizmetler" className="hover:text-pin transition-colors">Hizmetler</a>
           <a href="#surec" className="hover:text-pin transition-colors">Süreç</a>
           <a href="#paketler" className="hover:text-pin transition-colors">Paketler</a>
