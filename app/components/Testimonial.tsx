@@ -1,23 +1,24 @@
-type Stat =
-  | { kind: "number"; top: string; value: string; side?: string; bottom: string }
-  | { kind: "lines"; lines: string[] };
+type Stat = {
+  top: string;
+  value: string;
+  side?: string;
+  bottom: string;
+  centerHeading?: string;
+};
 
 const stats: Stat[] = [
   {
-    kind: "number",
     top: "Video içerikli ilanlar",
     value: "4 Kat",
     bottom: "Daha fazla tıklanıyor",
   },
   {
-    kind: "lines",
-    lines: [
-      "Alıcıların %85'i",
-      "Karar vermeden önce görselin tutarlılığına bakıyor",
-    ],
+    top: "",
+    value: "",
+    centerHeading: "Alıcıların %85'i",
+    bottom: "Karar vermeden önce görselin tutarlılığına bakıyor",
   },
   {
-    kind: "number",
     top: "Video içeren ilanlar",
     value: "3 Kat",
     bottom: "Daha hızlı alıcı kararı",
@@ -41,17 +42,15 @@ export default function Testimonial() {
               key={i}
               className="border border-pin/40 rounded-lg p-8 flex flex-col items-center justify-center text-center"
             >
-              {stat.kind === "lines" ? (
-                <div className="flex flex-col gap-3">
-                  {stat.lines.map((line, j) => (
-                    <span
-                      key={j}
-                      className="font-display text-3xl text-pin font-bold leading-snug"
-                    >
-                      {line}
-                    </span>
-                  ))}
-                </div>
+              {stat.centerHeading ? (
+                <>
+                  <p className="font-display text-3xl text-pin font-bold leading-snug mb-4">
+                    {stat.centerHeading}
+                  </p>
+                  <p className="font-sans text-[14px] text-krem/80 leading-snug">
+                    {stat.bottom}
+                  </p>
+                </>
               ) : (
                 <>
                   {stat.top && (
