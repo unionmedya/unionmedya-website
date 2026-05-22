@@ -6,7 +6,7 @@ const services = [
   },
   {
     code: "02",
-    title: "Sınır & Kadastro Overlay",
+    title: "Sınır İşaretleme",
     desc: "Alıcı 'burası benim' der. Parsel sınırları ve yola mesafe video üzerinde işaretlenir, soru kalmaz.",
   },
   {
