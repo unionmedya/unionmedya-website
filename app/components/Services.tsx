@@ -6,12 +6,12 @@ const services = [
   },
   {
     code: "02",
-    title: "Sınır İşaretleme",
+    title: "Arsa Sınır Çizgisi",
     desc: "Alıcı 'burası benim' der. Parsel sınırları ve yola mesafe video üzerinde işaretlenir, soru kalmaz.",
   },
   {
     code: "03",
-    title: "Video Kurgusu",
+    title: "Satış Videosu",
     desc: "Ham görüntü değil, satışa hazır hikaye. Müzik, renk, kurgu — alıcıyı arsaya bağlar.",
   },
   {
