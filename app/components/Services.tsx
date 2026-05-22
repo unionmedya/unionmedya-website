@@ -11,7 +11,7 @@ const services = [
   },
   {
     code: "03",
-    title: "Sanal Drone Kurgusu",
+    title: "Video Kurgusu",
     desc: "Ham görüntü değil, satışa hazır hikaye. Müzik, renk, kurgu — alıcıyı arsaya bağlar.",
   },
   {
@@ -27,7 +27,7 @@ export default function Services() {
       <div className="max-w-7xl mx-auto">
         <div className="mb-16">
           <h2 className="font-display text-4xl md:text-5xl leading-tight max-w-3xl">
-            Tek bir uçuşta, ilanınızın <span className="italic">tam donanımı.</span>
+            Çekimden ilana, <span className="italic">her format hazır.</span>
           </h2>
         </div>
 
