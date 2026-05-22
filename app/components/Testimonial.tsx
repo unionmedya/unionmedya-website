@@ -15,7 +15,7 @@ const stats: Stat[] = [
   {
     top: "",
     value: "",
-    centerHeading: "Alıcıların %85'i",
+    centerHeading: "alıcıların %85'i",
     bottom: "Karar vermeden önce görselin tutarlılığına bakıyor",
   },
   {
