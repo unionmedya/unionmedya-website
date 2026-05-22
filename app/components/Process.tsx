@@ -17,7 +17,7 @@ const steps = [
   {
     n: "4",
     title: "48 Saatte Teslim",
-    desc: "48 saat içinde tüm formatlar hazır. İndirin, paylaşın, ilanınızı yayına alın.",
+    desc: "48 saat içinde tüm formatlar hazır. Paylaşın, ilanınızı yayına alın.",
   },
 ];
 
