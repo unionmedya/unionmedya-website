@@ -17,7 +17,7 @@ const steps = [
   {
     n: "4",
     title: "48 Saatte Teslim",
-    desc: "Bulut linki ile tüm dosyalara anında erişim. İhtiyaç olursa 1 ücretsiz revizyon hakkı dahil.",
+    desc: "48 saat içinde tüm formatlar hazır. İndirin, paylaşın, ilanınızı yayına alın.",
   },
 ];
 
